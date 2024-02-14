@@ -3,7 +3,7 @@ document.addEventListener("keyup", function (e) {
     let comments = document.querySelectorAll("ytd-comment-renderer");
 
     comments.forEach((comment) => {
-      comment.style.background = "#FF7C02";
+      comment.style.backgroundColor = "#FFD600";
     });
   }
 });
